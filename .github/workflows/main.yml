@@ -1,0 +1,17 @@
+name: Echo Messages
+
+on: [push]
+
+jobs:
+  echo:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Echo Message 1
+      run: echo "Hello, world!"
+
+    - name: Echo Message 2
+      run: echo "This is an example Github Actions workflow."
+
+    - name: Echo Message 3
+      run: echo "Thanks for checking it out!"
